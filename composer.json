@@ -1,0 +1,36 @@
+{
+  "name": "bobbybouwmann/messenger",
+  "description": "Wrapper for Facebook Messenger Bot",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "facebook",
+    "messenger",
+    "bot"
+  ],
+  "authors": [
+    {
+      "name": "Bobby Bouwmann",
+      "email": "bobbybouwmann@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "^5.2",
+    "guzzlehttp/guzzle": "^6.2",
+    "illuminate/config": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bobbybouwmann\\Messenger\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.3"
+  }
+}
